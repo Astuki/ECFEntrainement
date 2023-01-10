@@ -1,0 +1,51 @@
+@font-face {
+   font-family: "Photography";
+   src: url(fonts/Photography.ttf);
+}
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+ 
+* {
+   margin: 0;
+   padding: 0;
+}
+ 
+body {
+   min-height: 100vh;
+}
+
+
+div.fond{
+   min-height: 100vh;
+   position: relative;
+   isolation: isolate;
+}
+
+div.fond::after{
+   content: "";
+   position: absolute;
+   z-index: -1;
+   inset: 0;
+   background-image: url('Images/fondAccueil.jpg');
+   filter: blur(0.6em);
+}
+
+div.presentation{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+h1.Charles{
+   display: block;
+   font-size: 130px;
+   color: white;
+   font-family: "Photography";
+}
+h1.Charles:hover{
+   cursor: pointer;
+   transform: scale(1.15);
+}
