@@ -68,6 +68,51 @@ li:hover{
    transform: scale(1.15);
 }
 li.page{
+   border-radius: 10px;
    border: 2px gray solid;
    background-color: rgba(220, 220, 220, 0.3);
+}
+
+section#filters{
+   margin-top: 20px;
+   justify-content: center;
+}
+
+#filters{
+   display: flex;
+   gap: 10px;  
+}
+
+#filters div{
+   font-family: "OutfitLight", sans-serif;
+   font-size: 25px;
+   margin-bottom: 15px;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 15px;
+   cursor: pointer;
+}
+#filters div:hover{
+   transform: scale(1.1);
+   background-color: rgba(128, 128, 128, 0.3);
+}
+
+#gallery{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+#gallery .active{
+   width: 30%;
+   padding: 5px;
+   transition: width 0.7s;
+}
+
+#gallery .inactive{
+   width: 0;
+   padding: 0;
+   transition: width 0.7s;
 }
