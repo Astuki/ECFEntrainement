@@ -71,3 +71,49 @@ li.page{
    border: 2px gray solid;
    background-color: rgba(220, 220, 220, 0.3);
 }
+
+main{
+   margin-top: 35px;
+}
+div.img{
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 70px;
+}
+div.img div.price{
+   align-self: center;
+}
+div.priceDesc{
+   display: flex;
+   align-self: center;
+   flex-flow: row nowrap;
+}
+div.price{
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   padding-left: 10px;
+   font-size: 22px;
+   font-family: "OutfitLight", sans-serif;
+   width: 130px;
+   height: 60px;
+   color: white;
+   background-color: #ed4e74;
+   border-radius: 0 0 20px 20px;
+}
+span{
+   font-family: "OutfitEBold", sans-serif;
+   font-size: 35px;
+   text-decoration: underline;
+}
+p{
+   font-family: "OutfitLight", sans-serif;
+   font-size: 20px;
+   width: fit-content;
+   height: fit-content;
+}
+img.presentation{
+   width: 50%;   
+}
