@@ -108,11 +108,11 @@ section#filters{
 #gallery .active{
    width: 30%;
    padding: 5px;
-   transition: width 0.7s;
+   transition: width ease-in-out 0.7s;
 }
 
 #gallery .inactive{
    width: 0;
    padding: 0;
-   transition: width 0.7s;
+   transition: width ease-in-out 0.7s;
 }
