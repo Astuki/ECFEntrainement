@@ -52,5 +52,12 @@ h1.Charles{
 }
 h1.Charles:hover{
    cursor: pointer;
-   transform: scale(1.15);
+   transform: scale(1.05);
+}
+
+@media (max-width: 1090px) {
+   h1.Charles{
+      width: min-content;
+      font-size: 100px;
+   }
 }
