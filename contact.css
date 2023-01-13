@@ -170,6 +170,13 @@ p.formulaire{
 .effet:hover > .letter:nth-child(23){
    transform: translate(10%, -5%) rotate(6deg);
 }
+iframe{
+   padding-top: 50px;
+   width: 1920px;
+}
+p.formulaire{
+   padding-left: 10px;
+}
 @media (max-width: 950px) {
    section#filters{
       display: flex;
